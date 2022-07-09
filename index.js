@@ -27,7 +27,7 @@ export default e => {
 
   e.waitUntil((async () => {
     // load the gltf model
-    const url = `${baseUrl}palace_test.glb`;
+    const url = `${baseUrl}glass_test.glb`;
     let mesh = await new Promise((resolve, reject) => {
       const {gltfLoader} = useLoaders();
       gltfLoader.load(url, resolve, function onprogress() {}, reject);
