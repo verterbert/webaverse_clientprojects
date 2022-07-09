@@ -2,8 +2,7 @@ import * as THREE from 'three';
 import metaversefile from 'metaversefile';
 const {useApp, useLoaders} = metaversefile;
 
-//const baseUrl = import.meta.url.replace(/(\/)[^\/\\]*$/, '$1');
-const baseUrl = 'https://vertebert.github.io/weba-modules/)';
+const baseUrl = import.meta.url.replace(/(\/)[^\/\\]*$/, '$1');
 
 export default e => {
   const app = useApp();
