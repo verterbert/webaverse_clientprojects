@@ -3,7 +3,7 @@
     {
       "type": "application/spawnpoint",
       "content": {
-        "position": [5,1,0]
+        "position": [0,1,0]
       }
     },
 		{
@@ -30,28 +30,34 @@
       ],
       "start_url": "https://webaverse.github.io/atmospheric-sky/"
     },
-    {
+		{
       "position": [
-        2-26,
         0,
-        4
+        0,
+        0
       ],
-      "quaternion": [
-        0,
-        0.7071067811865475,
-        0,
-        0.7071067811865475
-      ],
-      "start_url": "https://webaverse.github.io/app/public/avatars/scillia.vrm"
+
+      "start_url": "https://verterbert.github.io/webaverse_clientprojects/index.js"
     },
-    {
+	    {
       "position": [
         0,
         0,
         0
       ],
       "physics": true,
-      "start_url": "https://github.com/dannylodden/Hotel_ukraine"
+      "start_url": "https://verterbert.github.io/webaverse_clientprojects/hotel_collision.glb",
+      "dynamic": false
+    },
+	    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "physics": true,
+      "start_url": "https://verterbert.github.io/webaverse_clientprojects/Hotel_Ukraine.glb",
+      "dynamic": false
     }
   ]
 }
